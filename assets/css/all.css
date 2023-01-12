@@ -16,27 +16,7 @@ input[type="checkbox"] {
   width: 16px;
   height: 16px;
 }
-.w-120 {
-  width: 120px;
-}
-.w-90 {
-  width: 90px;
-}
-.min-h-560 {
-  min-height: 560px;
-}
-.max-w-320 {
-  max-width: 320px;
-}
-.max-h-600 {
-  max-height: 600px;
-}
-.br-8 {
-  border-radius: 8px;
-}
-.overflow-y-auto {
-  overflow-y: auto;
-}
+
 .main-container {
   max-width: 1900px;
   margin: 0 auto;
@@ -166,8 +146,35 @@ table td .delete-btn svg {
   border: none;
   margin-left: -1px;
 }
-.flex-xl-wrap{
-  flex-wrap: nowrap;
+.flex-xl-wrap {
+  flex-wrap: nowrap !important;
+}
+.w-120 {
+  width: 120px;
+}
+.w-90 {
+  width: 90px;
+}
+.min-h-560 {
+  min-height: 560px;
+}
+.max-w-320 {
+  max-width: 320px;
+}
+.max-w-1440 {
+  max-width: 1440px;
+}
+.max-w-1044 {
+  max-width: 1044px;
+}
+.max-h-600 {
+  max-height: 600px;
+}
+.br-8 {
+  border-radius: 8px;
+}
+.overflow-y-auto {
+  overflow-y: auto;
 }
 @media screen and (max-width: 576px) {
   .main-container {
@@ -178,11 +185,10 @@ table td .delete-btn svg {
   .dashboard-page .btn-box {
     transform: rotate(90deg);
   }
-  .flex-xl-wrap{
-    flex-wrap: wrap;
+  .flex-xl-wrap {
+    flex-wrap: wrap !important;
   }
-  /* .dashboard-page .btn-box button {
-    width: fit-content;
-    height: 90px;
-  } */
+  .w-xl-100 {
+    width: 100%;
+  }
 }
