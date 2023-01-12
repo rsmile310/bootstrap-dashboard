@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dashboard</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.0/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/all.css" />
+  </head>
+  <body class="dashboard-page">
+    <section class="main-container">
+      <div class="row mb-3">
+        <div class="col-xl"></div>
+        <div class="col-xl-1"></div>
+        <div
+          class="col-xl d-flex align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="form-group mb-3 mb-sm-0">
+            <label class="mr-2" for="cluster">Cluster</label>
+            <input type="text" id="cluster" name="cluster" />
+          </div>
+          <div class="form-group d-flex align-items-center">
+            <input
+              class="mr-2"
+              type="checkbox"
+              name="showAllClusterCheckbox"
+              id="showAllClusterCheckbox"
+            />
+            <label class="mb-0" for="showAllClusterCheckbox"
+              >Show All for Cluster</label
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row flex-xl-wrap">
+        <div class="col-xl mb-lg-0">
+          <table id="dashLeftTbl" class="table responsive w-100 my-0">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>IP</th>
+                <th>Type</th>
+                <th>Days</th>
+                <th>Location</th>
+                <th>Released By</th>
+                <th>Blocked History</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="col-xl-1 d-flex justify-content-center align-items-center">
+          <div class="btn-box">
+            <button class="btn btn-primary d-block mb-3">
+              <span
+                class="iconify"
+                data-icon="material-symbols:keyboard-double-arrow-right-rounded"
+                style="color: #fff"
+                data-width="40"
+              ></span>
+            </button>
+            <button class="btn btn-primary d-block">
+              <span
+                class="iconify"
+                data-icon="material-symbols:keyboard-double-arrow-left-rounded"
+                style="color: #fff"
+                data-width="40"
+              ></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-xl mb-4 mb-lg-0">
+          <table id="dashRightTbl" class="table responsive w-100 my-0">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Domain</th>
+                <th>Select ISP</th>
+                <th>Node</th>
+                <th>Type</th>
+                <th>Traffic By</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="radio-custom-box">
+                    <input
+                      class="radio-custom"
+                      type="radio"
+                      name="rightTblRadio"
+                      id="rightTblRadio1"
+                      checked
+                    />
+                    <label
+                      class="radio-custom-label"
+                      for="rightTblRadio1"
+                    ></label>
+                  </div>
+                </td>
+                <td>vda-128-1.cdnedge.net</td>
+                <td>UK-Vg</td>
+                <td>23.43.23.45</td>
+                <td>AWS</td>
+                <td>340Mbps</td>
+                <td>
+                  <span
+                    class="iconify"
+                    data-icon="lucide:rotate-ccw"
+                    data-width="24"
+                  ></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="radio-custom-box">
+                    <input
+                      class="radio-custom"
+                      type="radio"
+                      name="rightTblRadio"
+                      id="rightTblRadio2"
+                    />
+                    <label
+                      class="radio-custom-label"
+                      for="rightTblRadio2"
+                    ></label>
+                  </div>
+                </td>
+                <td>vda-128-1.cdnedge.net</td>
+                <td>UK-Vg</td>
+                <td>23.43.23.45</td>
+                <td>AWS</td>
+                <td>340Mbps</td>
+                <td>
+                  <span
+                    class="iconify"
+                    data-icon="lucide:rotate-ccw"
+                    data-width="24"
+                  ></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="radio-custom-box">
+                    <input
+                      class="radio-custom"
+                      type="radio"
+                      name="rightTblRadio"
+                      id="rightTblRadio3"
+                    />
+                    <label
+                      class="radio-custom-label"
+                      for="rightTblRadio3"
+                    ></label>
+                  </div>
+                </td>
+                <td>vda-128-1.cdnedge.net</td>
+                <td>UK-Vg</td>
+                <td>23.43.23.45</td>
+                <td>AWS</td>
+                <td>340Mbps</td>
+                <td>
+                  <span
+                    class="iconify"
+                    data-icon="lucide:rotate-ccw"
+                    data-width="24"
+                  ></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="radio-custom-box">
+                    <input
+                      class="radio-custom"
+                      type="radio"
+                      name="rightTblRadio"
+                      id="leftTblRadio4"
+                    />
+                    <label
+                      class="radio-custom-label"
+                      for="leftTblRadio4"
+                    ></label>
+                  </div>
+                </td>
+                <td>vda-128-1.cdnedge.net</td>
+                <td>UK-Vg</td>
+                <td>23.43.23.45</td>
+                <td>AWS</td>
+                <td>340Mbps</td>
+                <td>
+                  <span
+                    class="iconify"
+                    data-icon="lucide:rotate-ccw"
+                    data-width="24"
+                  ></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="radio-custom-box">
+                    <input
+                      class="radio-custom"
+                      type="radio"
+                      name="rightTblRadio"
+                      id="leftTblRadio5"
+                    />
+                    <label
+                      class="radio-custom-label"
+                      for="leftTblRadio5"
+                    ></label>
+                  </div>
+                </td>
+                <td>vda-128-1.cdnedge.net</td>
+                <td>UK-Vg</td>
+                <td>23.43.23.45</td>
+                <td>AWS</td>
+                <td>340Mbps</td>
+                <td>
+                  <span
+                    class="iconify"
+                    data-icon="lucide:rotate-ccw"
+                    data-width="24"
+                  ></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="radio-custom-box">
+                    <input
+                      class="radio-custom"
+                      type="radio"
+                      name="rightTblRadio"
+                      id="leftTblRadio6"
+                    />
+                    <label
+                      class="radio-custom-label"
+                      for="leftTblRadio6"
+                    ></label>
+                  </div>
+                </td>
+                <td>vda-128-1.cdnedge.net</td>
+                <td>UK-Vg</td>
+                <td>23.43.23.45</td>
+                <td>AWS</td>
+                <td>340Mbps</td>
+                <td>
+                  <span
+                    class="iconify"
+                    data-icon="lucide:rotate-ccw"
+                    data-width="24"
+                  ></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="./assets/js/dropdown.js"></script>
+    <script src="./assets/js/dashboard.js"></script>
+  </body>
+</html>

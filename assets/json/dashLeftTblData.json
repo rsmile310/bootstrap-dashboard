@@ -1,0 +1,128 @@
+[
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" checked /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "13.43.23.52",
+    "type": "AWS",
+    "days": "3",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  },
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "23.43.23.52",
+    "type": "Cpanel",
+    "days": "4",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  },
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "33.43.23.52",
+    "type": "Spanel",
+    "days": "5",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  },
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "13.43.23.52",
+    "type": "AWS",
+    "days": "6",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  },
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "13.43.23.52",
+    "type": "AWS",
+    "days": "4",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  },
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "13.43.23.52",
+    "type": "AWS",
+    "days": "4",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  },
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "13.43.23.52",
+    "type": "AWS",
+    "days": "4",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  },
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "13.43.23.52",
+    "type": "AWS",
+    "days": "4",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  },
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "13.43.23.52",
+    "type": "AWS",
+    "days": "4",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  },
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "13.43.23.52",
+    "type": "AWS",
+    "days": "4",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  },
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "13.43.23.52",
+    "type": "AWS",
+    "days": "4",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  },
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "13.43.23.52",
+    "type": "AWS",
+    "days": "4",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  },
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "13.43.23.52",
+    "type": "AWS",
+    "days": "4",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  },
+  {
+    "radio": "<div class=\"radio-custom-box\"><input class=\"radio-custom\" type=\"radio\" name=\"leftTblRadio\" id=\"leftTblRadio1\" /> <label   class=\"radio-custom-label\"   for=\"leftTblRadio1\" ></label></div>",
+    "ip": "13.43.23.52",
+    "type": "AWS",
+    "days": "4",
+    "location": "London",
+    "releasedBy": "WKF",
+    "blockedHistory": "UK-Vg UK-Talk FR-SAS"
+  }
+]

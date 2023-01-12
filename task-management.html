@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Task Management</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.0/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/all.css" />
+  </head>
+  <body class="task-management-page">
+    <section class="main-container">
+      <div
+        class="d-flex mb-3 w-100 max-w-320 align-items-center justify-content-between"
+      >
+        <div>
+          <p class="mb-0">Queued: 32</p>
+        </div>
+        <div>
+          <!-- <button class="btn btn-outline-secondary">
+            Running
+            <span class="iconify ml-1" data-icon="ph:arrow-fat-down"></span>
+          </button> -->
+          <div class="dropdown">
+            <button
+              class="btn btn-outline-secondary dropdown-toggle"
+              type="button"
+              id="stateMenuBtn"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Running
+            </button>
+            <div class="dropdown-menu" aria-labelledby="stateMenuBtn">
+              <a class="dropdown-item" href="#">Running</a>
+              <a class="dropdown-item" href="#">Queued</a>
+              <a class="dropdown-item" href="#">Success</a>
+              <a class="dropdown-item" href="#">Error</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 mb-4 mb-lg-0">
+          <table id="taskTbl" class="table responsive w-100 my-0">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Node</th>
+                <th>State</th>
+                <th>Time</th>
+                <th>IP</th>
+                <th>User</th>
+                <th>Password</th>
+                <th>Origin IP</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                <td>1</td>
+                <td>wkf-1.cnds.today</td>
+                <td>Running</td>
+                <td>03:32:22</td>
+                <td>23.43.23.52</td>
+                <td>root</td>
+                <td>SDGesrfdsd</td>
+                <td>23.24.52</td>
+                <td>
+                  <div>
+                    <a href="#" class="video-btn a-link-btn">
+                      <span
+                        class="iconify"
+                        data-icon="material-symbols:play-circle-outline-rounded"
+                      ></span>
+                    </a>
+                    <a href="#" class="delete-btn a-link-btn"
+                      ><span class="iconify" data-icon="mi:delete"></span
+                    ></a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>wkf-1.cnds.today</td>
+                <td>Running</td>
+                <td>03:32:22</td>
+                <td>23.43.23.52</td>
+                <td>root</td>
+                <td>SDGesrfdsd</td>
+                <td>23.24.52</td>
+                <td>
+                  <div>
+                    <a href="#" class="video-btn a-link-btn">
+                      <span
+                        class="iconify"
+                        data-icon="material-symbols:play-circle-outline-rounded"
+                      ></span>
+                    </a>
+                    <a href="#" class="delete-btn a-link-btn"
+                      ><span class="iconify" data-icon="mi:delete"></span
+                    ></a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>wkf-1.cnds.today</td>
+                <td>Running</td>
+                <td>03:32:22</td>
+                <td>23.43.23.52</td>
+                <td>root</td>
+                <td>SDGesrfdsd</td>
+                <td>23.24.52</td>
+                <td>
+                  <div>
+                    <a href="#" class="video-btn a-link-btn">
+                      <span
+                        class="iconify"
+                        data-icon="material-symbols:play-circle-outline-rounded"
+                      ></span>
+                    </a>
+                    <a href="#" class="delete-btn a-link-btn"
+                      ><span class="iconify" data-icon="mi:delete"></span
+                    ></a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>wkf-1.cnds.today</td>
+                <td>Running</td>
+                <td>03:32:22</td>
+                <td>23.43.23.52</td>
+                <td>root</td>
+                <td>SDGesrfdsd</td>
+                <td>23.24.52</td>
+                <td>
+                  <div>
+                    <a href="javascript:void(0)" class="video-btn a-link-btn">
+                      <span
+                        class="iconify"
+                        data-icon="material-symbols:play-circle-outline-rounded"
+                      ></span>
+                    </a>
+                    <a href="javascript:void(0)" class="delete-btn a-link-btn"
+                      ><span class="iconify" data-icon="mi:delete"></span
+                    ></a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>wkf-1.cnds.today</td>
+                <td>Running</td>
+                <td>03:32:22</td>
+                <td>23.43.23.52</td>
+                <td>root</td>
+                <td>SDGesrfdsd</td>
+                <td>23.24.52</td>
+                <td>
+                  <div>
+                    <a href="#" class="video-btn a-link-btn">
+                      <span
+                        class="iconify"
+                        data-icon="material-symbols:play-circle-outline-rounded"
+                      ></span>
+                    </a>
+                    <a href="#" class="delete-btn a-link-btn"
+                      ><span class="iconify" data-icon="mi:delete"></span
+                    ></a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>wkf-1.cnds.today</td>
+                <td>Running</td>
+                <td>03:32:22</td>
+                <td>23.43.23.52</td>
+                <td>root</td>
+                <td>SDGesrfdsd</td>
+                <td>23.24.52</td>
+                <td>
+                  <div>
+                    <a href="#" class="video-btn a-link-btn">
+                      <span
+                        class="iconify"
+                        data-icon="material-symbols:play-circle-outline-rounded"
+                      ></span>
+                    </a>
+                    <a href="#" class="delete-btn a-link-btn"
+                      ><span class="iconify" data-icon="mi:delete"></span
+                    ></a>
+                  </div>
+                </td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-4">
+          <div class="border br-8 p-4 min-h-560 max-h-600 overflow-y-auto">
+            <p class="mb-4">Package Install Lock Checked</p>
+            <p class="mb-4">
+              Load Balancer Install Started<br />Niginx Install done<br />Ninx
+              configuration updated<br />Nginx OK Checked
+            </p>
+            <p class="mb-4">Airtable Updated</p>
+            <p>LB Domain Updated</p>
+            <p class="mb-4">23.23.43.23</p>
+            <p>Bandwidth Measure Tool Installed</p>
+            <p class="mb-4">Package Install Lock Checked</p>
+            <p class="mb-4">
+              Load Balancer Install Started<br />Niginx Install done<br />Ninx
+              configuration updated<br />Nginx OK Checked
+            </p>
+            <p class="mb-4">Airtable Updated</p>
+            <p>LB Domain Updated</p>
+            <p class="mb-4">23.23.43.23</p>
+            <p>Bandwidth Measure Tool Installed</p>
+            <p class="mb-4">Package Install Lock Checked</p>
+            <p class="mb-4">
+              Load Balancer Install Started<br />Niginx Install done<br />Ninx
+              configuration updated<br />Nginx OK Checked
+            </p>
+            <p class="mb-4">Airtable Updated</p>
+            <p>LB Domain Updated</p>
+            <p class="mb-4">23.23.43.23</p>
+            <p>Bandwidth Measure Tool Installed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="./assets/js/dropdown.js"></script>
+    <script src="./assets/js/task-management.js"></script>
+  </body>
+</html>
